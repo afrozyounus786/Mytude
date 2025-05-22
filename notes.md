@@ -20,3 +20,12 @@ To run through nodemon in package.json "dev": "nodemon src/index.js"
 
 
   create this folder in src mkdir @("controllers", "db", "middlewares", "models", "routes", "utils")
+
+  npm i prettier for group the code in same format And to implement we have create a file .prettierrc. and write inside 
+  {
+    "singleQoute": false,
+    "bracketSpacing": true,
+    "tabWidth": 2,
+    "semi": true,
+    "trailingComma": "es5"
+}
