@@ -17,3 +17,6 @@ import nodemon to not refresh the server when we make any change in the code wit
 --save-dev
 Yaani tum nodemon ko development dependency ke roop me install kar rahe ho. Dev dependencies wo packages hote hain jo sirf code likhne, test karne, ya develop karne ke time chahiye hote hain — production (live server) me nahi.
 To run through nodemon in package.json "dev": "nodemon src/index.js"
+
+
+  create this folder in src mkdir @("controllers", "db", "middlewares", "models", "routes", "utils")
